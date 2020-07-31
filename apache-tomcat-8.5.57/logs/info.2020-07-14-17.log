@@ -1,0 +1,1 @@
+[2020-07-14 17:25:17  INFO org.example.fresh.listener.DemoListener:21] [localhost-startStop-2] [] [] [] contextDestroyed:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@6be86012] 

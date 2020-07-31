@@ -1,0 +1,13 @@
+[2020-07-13 16:05:55  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-8] [] [] [] filter called,request:/hello.do
+[2020-07-13 16:06:02  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-9] [] [] [] filter called,request:/hello.do
+[2020-07-13 16:06:05  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-10] [] [] [] filter called,request:/hello.do
+[2020-07-13 16:17:39  INFO org.example.fresh.listener.DemoListener:21] [localhost-startStop-2] [] [] [] contextDestroyed:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@46490c77] 
+[2020-07-13 16:17:47  INFO org.example.fresh.listener.DemoListener:16] [localhost-startStop-1] [] [] [] contextInitialized:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@3415e559]
+[2020-07-13 16:18:41  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-3] [] [] [] filter called,request:/login.do
+[2020-07-13 16:18:41  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-4] [] [] [] filter called,request:/hello.do
+[2020-07-13 16:18:47  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-5] [] [] [] filter called,request:/annotation.do
+[2020-07-13 16:26:58  INFO org.example.fresh.listener.DemoListener:21] [localhost-startStop-2] [] [] [] contextDestroyed:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@3415e559] 
+[2020-07-13 16:27:05  INFO org.example.fresh.listener.DemoListener:16] [localhost-startStop-1] [] [] [] contextInitialized:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@6be86012]
+[2020-07-13 16:35:04  INFO org.example.fresh.AnnotationServlet:19] [http-nio-8080-exec-1] [] [] [] AnnotationServlet init
+[2020-07-13 16:35:05  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-1] [] [] [] filter called,request:/annotation.do
+[2020-07-13 16:35:44  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-3] [] [] [] filter called,request:/annotation.do

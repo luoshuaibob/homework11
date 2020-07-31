@@ -1,0 +1,346 @@
+25-Jul-2020 14:27:38.945 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 14:27:38.948 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:27:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:27:38.951 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 14:27:38.951 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 14:27:38.951 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 14:27:38.952 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 14:27:39.152 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 14:27:39.175 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 14:27:39.192 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 853 ms
+25-Jul-2020 14:27:39.242 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 14:27:39.242 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 14:27:39.275 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]
+25-Jul-2020 14:27:39.301 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+25-Jul-2020 14:27:39.752 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 14:27:45.184 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]的部署已在[5,909]ms内完成
+25-Jul-2020 14:27:45.192 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 14:27:45.203 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6011 ms
+25-Jul-2020 14:29:43.821 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+25-Jul-2020 14:29:43.835 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 14:29:43.863 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 14:29:43.957 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[logback-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+25-Jul-2020 14:29:43.965 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 14:29:43.969 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+25-Jul-2020 14:45:41.358 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 14:45:41.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 14:45:41.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 14:45:41.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 14:45:41.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 14:45:41.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 14:45:41.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 14:45:41.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 14:45:41.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 14:45:41.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:45:41.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:45:41.373 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 14:45:41.374 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 14:45:41.374 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 14:45:41.374 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 14:45:41.374 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 14:45:41.374 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 14:45:41.375 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 14:45:41.375 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 14:45:41.375 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:45:41.375 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 14:45:41.375 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 14:45:41.376 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 14:45:41.541 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 14:45:41.564 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 14:45:41.581 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 831 ms
+25-Jul-2020 14:45:41.641 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 14:45:41.643 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 14:45:41.687 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]
+25-Jul-2020 14:45:41.724 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+25-Jul-2020 14:45:42.194 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 14:45:47.464 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]的部署已在[5,777]ms内完成
+25-Jul-2020 14:45:47.467 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 14:45:47.477 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5895 ms
+25-Jul-2020 15:00:00.825 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+25-Jul-2020 15:00:00.847 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 15:00:00.880 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 15:00:00.960 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[logback-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+25-Jul-2020 15:00:01.002 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 15:00:01.013 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:00:06.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 15:00:06.097 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 15:00:06.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 15:00:06.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:06.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:06.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 15:00:06.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 15:00:06.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 15:00:06.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 15:00:06.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 15:00:06.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 15:00:06.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 15:00:06.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 15:00:06.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:06.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:06.106 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 15:00:06.106 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 15:00:06.589 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:00:06.617 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 15:00:06.644 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1265 ms
+25-Jul-2020 15:00:06.989 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 15:00:06.990 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 15:00:07.011 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT]
+25-Jul-2020 15:00:08.532 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 15:00:14.017 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT]的部署已在[7,006]毫秒内完成
+25-Jul-2020 15:00:14.020 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 15:00:14.030 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 7385 ms
+25-Jul-2020 15:00:22.092 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+25-Jul-2020 15:00:22.093 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 15:00:22.103 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 15:00:22.113 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 15:00:22.117 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:00:28.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 15:00:28.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 15:00:28.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 15:00:28.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 15:00:28.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 15:00:28.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 15:00:28.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 15:00:28.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 15:00:28.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 15:00:28.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:28.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:28.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 15:00:28.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:00:28.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 15:00:28.469 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 15:00:28.806 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:00:28.883 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 15:00:28.919 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1347 ms
+25-Jul-2020 15:00:29.011 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 15:00:29.011 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 15:00:29.046 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]
+25-Jul-2020 15:00:29.081 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+25-Jul-2020 15:00:31.418 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 15:00:36.981 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]的部署已在[7,936]ms内完成
+25-Jul-2020 15:00:36.988 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 15:00:37.005 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 8085 ms
+25-Jul-2020 15:00:45.656 警告 [http-nio-8080-exec-2] org.apache.catalina.connector.Request.startAsync 无法启动async，因为处理链中的下列类不支持async[org.example.fresh.filter.LoginFilter,org.example.fresh.filter.NoneFilter]
+	java.lang.IllegalStateException: 当前链的筛选器或servlet不支持异步操作。
+		at org.apache.catalina.connector.Request.startAsync(Request.java:1696)
+		at org.apache.catalina.connector.Request.startAsync(Request.java:1689)
+		at org.apache.catalina.connector.RequestFacade.startAsync(RequestFacade.java:1031)
+		at org.example.fresh.AsyncLoginService.service(AsyncLoginService.java:30)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.example.fresh.filter.NoneFilter.doFilter(NoneFilter.java:23)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.example.fresh.filter.LoginFilter.doFilter(LoginFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+25-Jul-2020 15:08:23.925 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+25-Jul-2020 15:08:23.948 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 15:08:23.978 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 15:08:24.047 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 15:08:24.056 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:08:29.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 15:08:29.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 15:08:29.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 15:08:29.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 15:08:29.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 15:08:29.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 15:08:29.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 15:08:29.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 15:08:29.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 15:08:29.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:08:29.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:08:29.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 15:08:29.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 15:08:29.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 15:08:29.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 15:08:29.342 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 15:08:29.477 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:08:29.522 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 15:08:29.539 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 672 ms
+25-Jul-2020 15:08:29.996 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 15:08:29.997 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 15:08:30.045 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]
+25-Jul-2020 15:08:30.080 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+25-Jul-2020 15:08:30.871 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 15:08:36.274 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]的部署已在[6,228]ms内完成
+25-Jul-2020 15:08:36.278 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 15:08:36.290 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6750 ms
+25-Jul-2020 15:09:38.744 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+25-Jul-2020 15:09:38.746 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 15:09:38.761 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 15:09:38.787 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[pool-1-thread-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+25-Jul-2020 15:09:38.797 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 15:09:38.803 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:09:44.309 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 15:09:44.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 15:09:44.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 15:09:44.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 15:09:44.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 15:09:44.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 15:09:44.313 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 15:09:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 15:09:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 15:09:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:09:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:09:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 15:09:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 15:09:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 15:09:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 15:09:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 15:09:44.317 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 15:09:44.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 15:09:44.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 15:09:44.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:09:44.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:09:44.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 15:09:44.318 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 15:09:44.447 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:09:44.465 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 15:09:44.483 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 864 ms
+25-Jul-2020 15:09:44.525 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 15:09:44.525 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 15:09:44.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]
+25-Jul-2020 15:09:44.591 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+25-Jul-2020 15:09:45.006 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 15:09:50.261 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]的部署已在[5,701]ms内完成
+25-Jul-2020 15:09:50.263 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 15:09:50.272 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5787 ms
+25-Jul-2020 15:10:58.982 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+25-Jul-2020 15:10:58.983 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 15:10:58.993 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 15:10:59.009 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 15:10:59.012 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:11:04.766 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.57
+25-Jul-2020 15:11:04.775 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 30 2020 21:49:10 UTC
+25-Jul-2020 15:11:04.775 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.57.0
+25-Jul-2020 15:11:04.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+25-Jul-2020 15:11:04.777 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.14.6
+25-Jul-2020 15:11:04.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+25-Jul-2020 15:11:04.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+25-Jul-2020 15:11:04.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_171-b11
+25-Jul-2020 15:11:04.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Jul-2020 15:11:04.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:11:04.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/conf/logging.properties
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xdebug
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8111
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2020 15:11:04.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Jul-2020 15:11:04.786 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+25-Jul-2020 15:11:04.786 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:11:04.787 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/bjhl/git/fresh/apache-tomcat-8.5.57
+25-Jul-2020 15:11:04.787 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/bjhl/git/fresh/apache-tomcat-8.5.57/temp
+25-Jul-2020 15:11:04.787 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/bjhl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+25-Jul-2020 15:11:05.291 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Jul-2020 15:11:05.320 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2020 15:11:05.381 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1238 ms
+25-Jul-2020 15:11:05.879 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Jul-2020 15:11:05.879 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.57
+25-Jul-2020 15:11:05.934 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]
+25-Jul-2020 15:11:05.995 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+25-Jul-2020 15:11:08.580 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+25-Jul-2020 15:11:13.950 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/bjhl/git/fresh/apache-tomcat-8.5.57/webapps/ROOT.war]的部署已在[8,015]ms内完成
+25-Jul-2020 15:11:13.957 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Jul-2020 15:11:13.972 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 8590 ms
+25-Jul-2020 19:54:21.118 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+25-Jul-2020 19:54:21.152 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+25-Jul-2020 19:54:21.200 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[logback-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+25-Jul-2020 19:54:21.213 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+25-Jul-2020 19:54:21.218 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

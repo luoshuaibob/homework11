@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="users.sql">
+
+    <!--查询Sql-->
+    <select id="getUsersByName" parameterType="String" resultType="com.sunshine.bean.Users">
+        select * from
+        users where name = #{name}
+    </select>
+
+    <!--新增-->
+    <insert id="insertUsers" parameterType="com.sunshine.bean.Users"
+            useGeneratedKeys="true" keyProperty="id">
+        insert into
+        users(username, password, password_salt)
+        values(#{username}, #{password}, #{password_salt})
+    </insert>
+
+    <!--删除-->
+    <delete id="deleteUsersById" parameterType="int">
+        delete from
+        users where id=#{id}
+    </delete>
+
+    <!--更新-->
+    <update id="updateUsersById" parameterType="com.sunshine.bean.Users">
+        update users
+        set
+        username=#{username},password=#{password},password_salt=#{password_salt}
+        where id=#{id}
+    </update>
+</mapper>

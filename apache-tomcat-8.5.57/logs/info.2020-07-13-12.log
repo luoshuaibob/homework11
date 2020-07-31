@@ -1,0 +1,15 @@
+[2020-07-13 12:00:56  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-4] [] [] [] filter called,request:0:0:0:0:0:0:0:1
+[2020-07-13 12:00:56  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-3] [] [] [] filter called,request:0:0:0:0:0:0:0:1
+[2020-07-13 12:04:36  INFO org.example.fresh.listener.DemoListener:16] [localhost-startStop-1] [] [] [] contextInitialized:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@39c15267]
+[2020-07-13 12:05:14  INFO org.example.fresh.listener.DemoListener:21] [localhost-startStop-2] [] [] [] contextDestroyed:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@39c15267] 
+[2020-07-13 12:05:20  INFO org.example.fresh.listener.DemoListener:16] [localhost-startStop-1] [] [] [] contextInitialized:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@6a87bd7a]
+[2020-07-13 12:08:53  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-1] [] [] [] filter called,request:/hello.do
+[2020-07-13 12:09:49  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-4] [] [] [] filter called,request:/login.do
+[2020-07-13 12:09:50  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-5] [] [] [] filter called,request:/hello.do
+[2020-07-13 12:11:15  INFO org.example.fresh.listener.DemoListener:21] [localhost-startStop-2] [] [] [] contextDestroyed:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@6a87bd7a] 
+[2020-07-13 12:11:26  INFO org.example.fresh.listener.DemoListener:16] [localhost-startStop-1] [] [] [] contextInitialized:javax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@46490c77]
+[2020-07-13 12:11:52  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-2] [] [] [] filter called,request:/login.do
+[2020-07-13 12:11:52  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-3] [] [] [] filter called,request:/hello.do
+[2020-07-13 12:12:07  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-4] [] [] [] filter called,request:/hello.do
+[2020-07-13 12:12:08  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-5] [] [] [] filter called,request:/hello.do
+[2020-07-13 12:12:08  INFO org.example.fresh.filter.LoginFilter:21] [http-nio-8080-exec-6] [] [] [] filter called,request:/hello.do
